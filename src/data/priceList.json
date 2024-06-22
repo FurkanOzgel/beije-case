@@ -1,0 +1,44 @@
+{
+    "priceList": [
+        {
+        "id": 1,
+        "name": "Standart Ped",
+        "price": 6.08
+        },
+        {
+        "id": 2,
+        "name": "Süper Ped",
+        "price": 7.14
+        },
+        {
+        "id": 3,
+        "name": "Süper+ Ped",
+        "price": 8.03
+        },
+        {
+        "id": 4,
+        "name": "Günlük Ped",
+        "price": 3.75
+        },
+        {
+        "id": 5,
+        "name": "Süper Günlük Ped",
+        "price": 4.32
+        },
+        {
+        "id": 6,
+        "name": "Mini Tampon",
+        "price": 7.87
+        },
+        {
+        "id": 7,
+        "name": "Standart Tampon",
+        "price": 8.48
+        },
+        {
+        "id": 8,
+        "name": "Süper Tampon",
+        "price": 8.97
+        }
+    ]
+}

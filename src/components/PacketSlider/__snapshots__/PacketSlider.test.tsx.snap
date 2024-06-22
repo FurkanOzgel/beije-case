@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<Provider
+  store={
+    {
+      "@@observable": [Function],
+      "dispatch": [Function],
+      "getState": [Function],
+      "replaceReducer": [Function],
+      "subscribe": [Function],
+    }
+  }
+>
+  <PacketSlider
+    categoryID={1}
+    maxValue={100}
+    minValue={0}
+    step={10}
+    title="Test"
+  />
+</Provider>
+`;

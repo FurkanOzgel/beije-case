@@ -1,7 +1,7 @@
 import { StyleSheet } from "react-native";
 
 export default StyleSheet.create({
-    productInfo: {
+    categoryInfo: {
         flexDirection: "row",
         justifyContent: "space-between",
         alignItems: "center",

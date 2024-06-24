@@ -17,10 +17,9 @@ interface CartCategoryItemProps {
 
 function CartCategoryItem(props: CartCategoryItemProps): React.JSX.Element {
     const { cart, categoryID, onDeleteCategory } = props;
-    console.log(cart);
     
     return(
-        <View style={[styles.productInfo, !generateProductInfo(cart, categoryID) ? {display:'none'}:{}]}>
+        <View style={[styles.categoryInfo, !generateProductInfo(cart, categoryID) ? {display:'none'}:{}]}>
             <View>
                 <Text style={styles.productCategory}>{getCategoryNameById(categoryID)}</Text>
                 <Text style={styles.qunatityInfo}>{generateProductInfo(cart, categoryID)}</Text>

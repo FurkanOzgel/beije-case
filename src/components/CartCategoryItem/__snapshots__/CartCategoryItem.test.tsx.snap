@@ -24,7 +24,7 @@ exports[`should render correctly 1`] = `
         }
       }
     >
-      Ped Paketleri
+      Günlük Ped Paketleri
     </Text>
     <Text
       style={

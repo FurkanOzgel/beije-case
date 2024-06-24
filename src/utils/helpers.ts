@@ -47,4 +47,17 @@ const generateProductInfo = (cart: Cart, categoryID: number) => {
     }
 };
 
-export {getTotalPrice, generateProductInfo};
+const getCategoryNameById = (categoryID: number) => {
+    switch (categoryID) {
+        case 1:
+            return "Ped Paketleri";
+        case 2:
+            return "Günlük Ped Paketleri";
+        case 3:
+            return "Tampon Paketleri";
+        default:
+            return "Diğer";
+    }
+}
+
+export {getTotalPrice, generateProductInfo, getCategoryNameById};

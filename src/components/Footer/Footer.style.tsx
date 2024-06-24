@@ -1,8 +1,8 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
     footerContainer: {
-        backgroundColor: "rgb(38, 38, 38)",
+        backgroundColor: 'rgb(38, 38, 38)',
         paddingHorizontal:27,
         paddingVertical:40,
         display: 'flex',
@@ -11,7 +11,7 @@ export default StyleSheet.create({
     },
     navContainer:{
         flexDirection:'row',
-        justifyContent: "center", 
+        justifyContent: 'center', 
         width: '100%', 
         gap:16
     },
@@ -32,7 +32,7 @@ export default StyleSheet.create({
         borderTopWidth: 1,
         width: '100%',
         marginTop: 24,
-        alignItems: "center",
+        alignItems: 'center',
         gap:24,
         paddingTop: 24
     },

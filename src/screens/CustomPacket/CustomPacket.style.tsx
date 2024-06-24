@@ -1,4 +1,4 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 export default StyleSheet.create({
     container: {
@@ -9,19 +9,19 @@ export default StyleSheet.create({
     },
     scrollContainer: {
         paddingTop: 40,
-        backgroundColor: "#f9f5f2"
+        backgroundColor: '#f9f5f2'
     },
     title: {
-        fontWeight: "500",
+        fontWeight: '500',
         fontSize: 28,
-        color: "rgba(0, 0, 0, 0.9)",
+        color: 'rgba(0, 0, 0, 0.9)',
         lineHeight: 36.4
     },
     text: {
-        fontWeight: "400",
+        fontWeight: '400',
         fontSize: 16,
         lineHeight: 26,
-        color: "rgba(0, 0, 0, 0.6)"
+        color: 'rgba(0, 0, 0, 0.6)'
     },
     descriptionContainer: {
         gap: 24
@@ -31,7 +31,7 @@ export default StyleSheet.create({
         flex: 1
     },
     tabBar: {
-        backgroundColor: "#f9f5f2",
+        backgroundColor: '#f9f5f2',
         elevation: 0,
         shadowOpacity: 0
     },

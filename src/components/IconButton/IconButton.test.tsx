@@ -17,6 +17,6 @@ test('calls the onPress handler', () => {
 
 test('renders the icon prop', () => {
     render(<IconButton svg={icons.logo} onPress={() => {}}/>)
-    expect(screen.getByTestId("svg").props.xml).toBe(icons.logo)
+    expect(screen.getByTestId('svg').props.xml).toBe(icons.logo)
 })
 

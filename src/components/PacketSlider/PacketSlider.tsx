@@ -37,7 +37,7 @@ function PacketSlider(props: PacketSliderProps): React.JSX.Element {
                     step={props.step}                       
                     minimumTrackTintColor='rgb(52, 49, 49)'      
                     maximumTrackTintColor='rgb(174,171,169)' 
-                    thumbStyle={{backgroundColor:"black"}} 
+                    thumbStyle={{backgroundColor:'black'}} 
                     trackHeight={4}                   
                     thumbSize={15}                 
                     onValueChange={(value) => {
@@ -61,7 +61,7 @@ function PacketSlider(props: PacketSliderProps): React.JSX.Element {
                         return(
                             <View>
                                 {(value != props.maxValue && value != props.minValue) ? 
-                                <View style={{display:'flex', alignItems:"center"}}>
+                                <View style={{display:'flex', alignItems:'center'}}>
                                     <View style={styles.sliderValue}>
                                         <Text style={styles.sliderValueText}>{value}</Text>
                                     </View>
@@ -77,8 +77,8 @@ function PacketSlider(props: PacketSliderProps): React.JSX.Element {
                     }}/>
             </View>
             <View style={styles.intervalContainer}>
-                <Text testID="min-value" style={styles.intervalText}>{props.minValue}</Text>
-                <Text testID="max-value" style={styles.intervalText}>{props.maxValue}</Text>
+                <Text testID='min-value' style={styles.intervalText}>{props.minValue}</Text>
+                <Text testID='max-value' style={styles.intervalText}>{props.maxValue}</Text>
             </View>
         </View>
             

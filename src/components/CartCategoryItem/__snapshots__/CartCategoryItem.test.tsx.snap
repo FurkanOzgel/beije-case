@@ -23,6 +23,7 @@ exports[`should render correctly 1`] = `
           "fontWeight": "500",
         }
       }
+      testID="category-title"
     >
       Günlük Ped Paketleri
     </Text>

@@ -1,16 +1,16 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 const styles = StyleSheet.create({
     animatedView: {
-        backgroundColor:"rgb(247, 246, 245)",
+        backgroundColor:'rgb(247, 246, 245)',
         padding: 12,
-        borderColor: "rgba(0, 0, 0, 0.2)",
+        borderColor: 'rgba(0, 0, 0, 0.2)',
         borderTopWidth: 1
     },
     addCartBtn: {
         padding: 10,
-        alignItems: "center",
-        justifyContent: "center",
+        alignItems: 'center',
+        justifyContent: 'center',
         borderRadius:64,
         paddingVertical: 12,
         paddingHorizontal: 22,
@@ -20,21 +20,21 @@ const styles = StyleSheet.create({
         fontSize: 18
     },
     activeAddCartBtn: {
-        backgroundColor: "#343131"
+        backgroundColor: '#343131'
     },
     inactiveAddCartBtn: {
-        backgroundColor: "#D9D8D7"
+        backgroundColor: '#D9D8D7'
     },
     activeAddCartBtnText: {
-        color: "#F6F6F6"
+        color: '#F6F6F6'
     },
     inactiveAddCartBtnText: {
-        color: "#A4A3A2"
+        color: '#A4A3A2'
     },
     totalInfoContainer: {
-        flexDirection: "row",
-        justifyContent: "space-between",
-        alignItems: "center",
+        flexDirection: 'row',
+        justifyContent: 'space-between',
+        alignItems: 'center',
         marginBottom: 10,
         padding: 8
     },
@@ -42,30 +42,30 @@ const styles = StyleSheet.create({
         fontWeight: '500',
         fontSize: 16,
         lineHeight: 24,
-        color: "rgba(0, 0, 0, 0.54)"
+        color: 'rgba(0, 0, 0, 0.54)'
     },
     frequency: {
-        flexDirection: "row",
+        flexDirection: 'row',
         paddingVertical: 12,
         paddingHorizontal: 16,
         gap: 10,
-        alignItems: "center",
+        alignItems: 'center',
         borderRadius: 8,
-        borderColor: "rgba(0, 0, 0, 0.2)",
+        borderColor: 'rgba(0, 0, 0, 0.2)',
         borderWidth: 2
     },
     frequencyText: {
         fontSize: 16,
-        color: "rgba(0, 0, 0, 0.6)"
+        color: 'rgba(0, 0, 0, 0.6)'
     },
     bottomFixedContainer: {
         padding:10,
         backgroundColor: '#F7F6F5'
     },
     totalTextContainer: {
-        flexDirection:"row", 
-        justifyContent:"center", 
-        alignItems: "center"
+        flexDirection:'row', 
+        justifyContent:'center', 
+        alignItems: 'center'
     }
 });
 

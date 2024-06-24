@@ -21,7 +21,7 @@ function CartCategoryItem(props: CartCategoryItemProps): React.JSX.Element {
     return(
         <View style={[styles.categoryInfo, !generateProductInfo(cart, categoryID) ? {display:'none'}:{}]}>
             <View>
-                <Text style={styles.productCategory}>{getCategoryNameById(categoryID)}</Text>
+                <Text testID="category-title" style={styles.productCategory}>{getCategoryNameById(categoryID)}</Text>
                 <Text style={styles.qunatityInfo}>{generateProductInfo(cart, categoryID)}</Text>
             </View>
             <IconButton svg={icons.bin} onPress={() => onDeleteCategory(categoryID)} />

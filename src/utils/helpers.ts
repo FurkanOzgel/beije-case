@@ -1,4 +1,4 @@
-import { Cart } from "../context/cart/models";
+import { Cart } from '../context/cart/models';
 import priceList from '../data/priceList.json';
 
 function formatNumber(number: number) {
@@ -50,13 +50,13 @@ const generateProductInfo = (cart: Cart, categoryID: number) => {
 const getCategoryNameById = (categoryID: number) => {
     switch (categoryID) {
         case 1:
-            return "Ped Paketleri";
+            return 'Ped Paketleri';
         case 2:
-            return "Günlük Ped Paketleri";
+            return 'Günlük Ped Paketleri';
         case 3:
-            return "Tampon Paketleri";
+            return 'Tampon Paketleri';
         default:
-            return "Diğer";
+            return 'Diğer';
     }
 }
 

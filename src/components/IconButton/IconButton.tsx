@@ -1,6 +1,6 @@
-import React from "react";
-import { TouchableOpacity } from "react-native";
-import { SvgXml } from "react-native-svg";
+import React from 'react';
+import { TouchableOpacity } from 'react-native';
+import { SvgXml } from 'react-native-svg';
 
 interface IconButtonProps {
     onPress: () => void;
@@ -9,8 +9,8 @@ interface IconButtonProps {
 
 function IconButton({ onPress, svg }: IconButtonProps): React.JSX.Element {
     return (
-        <TouchableOpacity testID="icon-button" onPress={onPress}>
-            <SvgXml testID="svg" xml={svg}/>
+        <TouchableOpacity testID='icon-button' onPress={onPress}>
+            <SvgXml testID='svg' xml={svg}/>
         </TouchableOpacity>
     );
 }

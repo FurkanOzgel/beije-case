@@ -8,7 +8,7 @@ const store = configureStore();
 
 const comp = 
     <Provider store={store}>
-        <PacketSlider title="Test"
+        <PacketSlider title='Test'
             minValue={0}
             maxValue={100}
             step={10}
@@ -23,15 +23,15 @@ test('renders correctly', () => {
 
 test('renders minValue prop', () => {
     render(comp)
-    expect(screen.getByTestId("min-value").children[0]).toBe("0")
+    expect(screen.getByTestId('min-value').children[0]).toBe('0')
 })
 
 test('renders maxValue prop', () => {
     render(comp)
-    expect(screen.getByTestId("max-value").children[0]).toBe("100")
+    expect(screen.getByTestId('max-value').children[0]).toBe('100')
 })
 
 test('renders title prop', () => {
     render(comp)
-    expect(screen.getByTestId("title").children[0]).toBe("Test")
+    expect(screen.getByTestId('title').children[0]).toBe('Test')
 })

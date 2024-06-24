@@ -14,7 +14,7 @@ function CustomPacketStack(): React.JSX.Element {
                     return <Header/>;
                 }
             }}>
-            <Stack.Screen name="CustomPacket" component={CustomPacket}/>
+            <Stack.Screen name='CustomPacket' component={CustomPacket}/>
         </Stack.Navigator>
     );
 }

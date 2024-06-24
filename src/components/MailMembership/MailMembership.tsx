@@ -1,7 +1,7 @@
-import React from "react";
-import { View, Text, TextInput, TouchableOpacity } from "react-native";
+import React from 'react';
+import { View, Text, TextInput, TouchableOpacity } from 'react-native';
 
-import styles from "./MailMembership.style";
+import styles from './MailMembership.style';
 
 function MailMembership(): React.JSX.Element {
     return(
@@ -12,7 +12,7 @@ function MailMembership(): React.JSX.Element {
             </View>
             <View>
                 <View style = {{marginTop:24, gap:16}}>
-                    <TextInput placeholder="e-mail adresin" style={styles.mailInput} placeholderTextColor={'rgba(255, 255, 255, 0.698)'}/>
+                    <TextInput placeholder='e-mail adresin' style={styles.mailInput} placeholderTextColor={'rgba(255, 255, 255, 0.698)'}/>
                     <TouchableOpacity style={styles.sendButton}>
                         <Text style={styles.sendBtnText}>Gönder</Text>
                     </TouchableOpacity>

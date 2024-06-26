@@ -8,7 +8,7 @@ const styles = StyleSheet.create({
         borderTopWidth: 1
     },
     totalInfoContainer: {
-        backgroundColor: '#F7F6F5',
+        backgroundColor: 'rgb(247, 246, 245)',
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',

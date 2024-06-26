@@ -57,7 +57,7 @@ function CartDetail(): React.JSX.Element {
     };
 
     return (
-        <View>
+        <View style={{backgroundColor: 'rgb(247, 246, 245)',}}>
             <View style={!pressedDetail ? {display: "none"} : {display:'flex'}}>
                 <Animated.View style={[styles.animatedView, { height: animatedHeight }]}>
                     <View onLayout={onContentSizeChange}>

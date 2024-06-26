@@ -72,7 +72,7 @@ function CustomPacket(): React.JSX.Element {
                 <Footer/>
             </ScrollView>
             <CartDetail/>
-            <View style={{}}>
+            <View style={{backgroundColor: 'rgb(247, 246, 245)'}}>
                 <TextButton text='Sepete Ekle'
                 onPress={() => {}}
                 containerStyle={productsLength == 0 ? [

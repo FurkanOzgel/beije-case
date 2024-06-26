@@ -48,5 +48,29 @@ export default StyleSheet.create({
     },
     tabView: {
         gap:40
+    },
+    addCartBtn: {
+        alignItems: 'center',
+        justifyContent: 'center',
+        borderRadius:64,
+        paddingVertical: 12,
+        paddingHorizontal: 22,
+        margin:15
+    },
+    addCartBtnText: {
+        fontWeight: '500',
+        fontSize: 18
+    },
+    activeAddCartBtn: {
+        backgroundColor: '#343131'
+    },
+    inactiveAddCartBtn: {
+        backgroundColor: '#D9D8D7'
+    },
+    activeAddCartBtnText: {
+        color: '#F6F6F6'
+    },
+    inactiveAddCartBtnText: {
+        color: '#A4A3A2'
     }
 });

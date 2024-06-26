@@ -4,10 +4,10 @@ import { Text, View, TouchableOpacity, Animated } from 'react-native';
 import { useSelector, useDispatch } from 'react-redux';
 import { SvgXml } from 'react-native-svg';
 
-import icons from '../../assets/svg';
+import icons from '../../../../assets/svg';
 import styles from './CartDetail.style';
 
-import {getTotalPrice} from '../../utils/helpers';
+import {getTotalPrice} from '../../../../utils/helpers';
 import CartCategoryItem from  '../CartCategoryItem'
 
 function CartDetail(): React.JSX.Element {
@@ -71,21 +71,12 @@ function CartDetail(): React.JSX.Element {
                     </View>
                 </Animated.View>
             </View>
-            <View style={styles.bottomFixedContainer}>
-                <View style={[styles.totalInfoContainer, productsLength === 0 ? {display: "none"} : {}]} onTouchStart={animateView}>
-                    <View style={styles.totalTextContainer}>
-                        <Text style={styles.infoText}>Toplam </Text>
-                        <SvgXml xml={icons.arrow} transform={pressedDetail ? [{rotate:'-90deg'}]:[{rotate:'90deg'}] }/>
-                    </View>
-                    <Text style={styles.infoText}>₺{getTotalPrice(cart)}</Text>
+            <View style={[styles.totalInfoContainer, productsLength === 0 ? {display: "none"} : {}]} onTouchStart={animateView}>
+                <View style={styles.totalTextContainer}>
+                    <Text style={styles.infoText}>Toplam </Text>
+                    <SvgXml xml={icons.arrow} transform={pressedDetail ? [{rotate:'-90deg'}]:[{rotate:'90deg'}] }/>
                 </View>
-                <TouchableOpacity style={productsLength == 0 ? [
-                    styles.addCartBtn, styles.inactiveAddCartBtn]:
-                    [styles.addCartBtn, styles.activeAddCartBtn]}>
-                    <Text style={productsLength == 0 ? [
-                        styles.addCartBtnText, styles.inactiveAddCartBtnText]:
-                        [styles.addCartBtnText, styles.activeAddCartBtnText]}>Sepete Ekle</Text>
-                </TouchableOpacity>
+                <Text style={styles.infoText}>₺{getTotalPrice(cart)}</Text>
             </View>
         </View>
 

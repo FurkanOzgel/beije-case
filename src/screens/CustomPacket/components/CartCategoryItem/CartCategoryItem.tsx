@@ -1,13 +1,13 @@
 import React from "react";
 import { View, Text } from "react-native";
 
-import { generateProductInfo, getCategoryNameById } from "../../utils/helpers";
-import { Cart } from "../../context/cart/models";
+import { generateProductInfo, getCategoryNameById } from "../../../../utils/helpers";
+import { Cart } from "../../../../context/cart/models";
 
-import icons from "../../assets/svg";
+import icons from "../../../../assets/svg";
 import styles from "./CartCategoryItem.style";
 
-import IconButton from "../IconButton";
+import IconButton from "../../../../components/IconButton";
 
 interface CartCategoryItemProps {
     cart: Cart;

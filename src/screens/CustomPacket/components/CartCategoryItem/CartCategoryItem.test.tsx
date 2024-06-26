@@ -1,6 +1,6 @@
 import { render, fireEvent, screen } from '@testing-library/react-native';
 import CartCategoryItem from './CartCategoryItem';
-import {Cart} from '../../context/cart/models';
+import {Cart} from '../../../../context/cart/models';
 
 const cart: Cart = {
     'products': [

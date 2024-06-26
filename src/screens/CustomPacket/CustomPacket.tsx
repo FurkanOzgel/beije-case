@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { Text, View, Dimensions } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { TabView, SceneMap, TabBar } from 'react-native-tab-view';
+import { useSelector, useDispatch } from 'react-redux';
 import styles from '../CustomPacket/CustomPacket.style';
 import Footer from '../../components/Footer';
-import TabViews from './TabViews';
-import CartDetail from '../../components/CartDetail';
+import TabViews from './components/TabViews';
+import CartDetail from './components/CartDetail';
+import TextButton from '../../components/TextButton';
 
 const initialLayout = { width: Dimensions.get('window').width };
 
@@ -56,6 +58,8 @@ function TabViewComponent(): React.JSX.Element {
 }
 
 function CustomPacket(): React.JSX.Element {
+    const cart = useSelector((state: any) => state.cart);
+    const productsLength = cart.products.length
     return (
         <View style={styles.container}>
             <ScrollView style={styles.scrollContainer}>
@@ -66,6 +70,16 @@ function CustomPacket(): React.JSX.Element {
                 <Footer/>
             </ScrollView>
             <CartDetail/>
+            <View style={{}}>
+                <TextButton text='Sepete Ekle'
+                onPress={() => {}}
+                containerStyle={productsLength == 0 ? [
+                    styles.addCartBtn, styles.inactiveAddCartBtn]:
+                    [styles.addCartBtn, styles.activeAddCartBtn]}
+                textStyle={productsLength == 0 ? [
+                    styles.addCartBtnText, styles.inactiveAddCartBtnText]:
+                    [styles.addCartBtnText, styles.activeAddCartBtnText]}/>
+            </View>
         </View>
     );
 }

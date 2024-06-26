@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import PacketSlider from '../../../components/PacketSlider';
+import PacketSlider from '../../../../components/PacketSlider';
 
 const PadRoute = () => (
     <View>

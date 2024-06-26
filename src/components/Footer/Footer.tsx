@@ -7,7 +7,7 @@ import icons from '../../assets/svg';
 
 import TextButton from '../TextButton';
 import IconButton from '../IconButton';
-import MailMembership from '../MailMembership';
+import MailMembership from './components/MailMembership';
 
 function Footer(): React.JSX.Element {
     return(

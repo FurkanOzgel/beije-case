@@ -7,36 +7,14 @@ const styles = StyleSheet.create({
         borderColor: 'rgba(0, 0, 0, 0.2)',
         borderTopWidth: 1
     },
-    addCartBtn: {
-        padding: 10,
-        alignItems: 'center',
-        justifyContent: 'center',
-        borderRadius:64,
-        paddingVertical: 12,
-        paddingHorizontal: 22,
-    },
-    addCartBtnText: {
-        fontWeight: '500',
-        fontSize: 18
-    },
-    activeAddCartBtn: {
-        backgroundColor: '#343131'
-    },
-    inactiveAddCartBtn: {
-        backgroundColor: '#D9D8D7'
-    },
-    activeAddCartBtnText: {
-        color: '#F6F6F6'
-    },
-    inactiveAddCartBtnText: {
-        color: '#A4A3A2'
-    },
     totalInfoContainer: {
+        backgroundColor: '#F7F6F5',
         flexDirection: 'row',
         justifyContent: 'space-between',
         alignItems: 'center',
         marginBottom: 10,
-        padding: 8
+        padding: 8,
+        margin: 10
     },
     infoText: {
         fontWeight: '500',
@@ -57,10 +35,6 @@ const styles = StyleSheet.create({
     frequencyText: {
         fontSize: 16,
         color: 'rgba(0, 0, 0, 0.6)'
-    },
-    bottomFixedContainer: {
-        padding:10,
-        backgroundColor: '#F7F6F5'
     },
     totalTextContainer: {
         flexDirection:'row', 

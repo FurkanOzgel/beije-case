@@ -1,0 +1,1581 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<View
+  style={
+    {
+      "alignItems": "center",
+      "backgroundColor": "rgb(38, 38, 38)",
+      "display": "flex",
+      "gap": 24,
+      "paddingHorizontal": 27,
+      "paddingVertical": 40,
+    }
+  }
+>
+  <RNSVGSvgView
+    align="xMidYMid"
+    bbHeight={24}
+    bbWidth={56.39}
+    focusable={false}
+    height={24}
+    id="beije_logo02_svg__Layer_1"
+    meetOrSlice={0}
+    minX={0}
+    minY={0}
+    style={
+      [
+        {
+          "backgroundColor": "transparent",
+          "borderWidth": 0,
+        },
+        {
+          "cursor": "pointer",
+        },
+        {
+          "flex": 0,
+          "height": 24,
+          "width": 56,
+        },
+      ]
+    }
+    vbHeight={426}
+    vbWidth={1001}
+    width={56.39}
+    x={0}
+    xml="<svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="beije_logo02_svg__Layer_1" xmlns="http://www.w3.org/2000/svg" x="0" y="0" viewBox="0 0 1001 426" xml:space="preserve" width="56.39" height="24" style="cursor: pointer;"><style>.beije_logo02_svg__st0{fill:#ffffff}</style><path fill="#ffffff" class="beije_logo02_svg__st0" d="M191.13 291.98c-19.73 21.7-44.58 32.35-74.97 32.35-11.84 0-24.86-3.16-38.67-9.47-13.81-6.31-24.07-15-30.78-26.04v32.35H.95V0H47.9v141.65c6.71-11.05 16.57-19.73 30.38-25.65 13.81-6.31 26.83-9.47 39.06-9.47 30.78 0 55.64 11.05 74.57 33.14 19.34 22.1 28.8 47.35 28.8 75.36.01 29.61-9.85 55.25-29.58 76.95zM47.11 215.43c0 18.54 5.92 34.33 17.36 47.35 11.83 12.63 27.22 18.94 45.77 18.94 18.54 0 33.93-6.31 45.37-18.94 11.84-13.02 17.76-28.8 17.76-47.35s-5.92-34.33-17.76-47.35c-11.44-13.02-26.83-19.34-45.37-19.34-18.55 0-33.94 6.31-45.77 19.34-11.44 13.03-17.36 28.81-17.36 47.35zM295.67 229.64c.39 15.78 6.71 28.8 18.94 39.46 12.23 10.26 26.44 15.39 42.61 15.39 26.44 0 45.38-11.05 56.82-32.75l33.93 22.49c-17.76 32.75-52.08 50.9-89.96 50.9-31.17 0-57.61-10.26-78.91-31.17-20.91-20.91-31.57-47.35-31.57-78.52 0-30.38 10.26-56.03 30.38-77.34 20.12-21.31 45.37-31.96 75.76-31.96 31.96 0 57.21 9.87 75.36 29.99 18.15 20.13 27.23 46.17 27.23 78.91 0 6.31-.4 11.05-.79 14.6h-159.8zm2.36-35.51h110.48c-1.58-29.6-24.86-47.74-54.84-47.74-28.8 0-51.3 18.94-55.64 47.74zM498.06 20.52c12.23-12.63 31.17-12.63 43.4 0 12.23 12.23 12.23 31.17 0 43.4-12.23 12.23-31.17 12.23-43.4 0-12.23-12.23-12.23-31.17 0-43.4zm45.37 300.66h-46.95v-210.7h46.95v210.7zM648.38 110.48v235.56c0 53.27-25.65 79.71-76.55 79.71-7.5 0-14.6-1.18-21.3-3.16v-41.04c3.55 1.18 7.5 1.58 11.83 1.58 28.02 0 38.67-10.66 38.67-42.22V110.48h47.35zm7.5-68.26c0 16.97-14.2 30.77-31.57 30.77-16.97 0-30.78-13.81-30.78-30.77 0-16.97 13.81-31.17 30.78-31.17 17.36 0 31.57 14.2 31.57 31.17zM737.15 229.64c.4 15.78 6.71 28.8 18.94 39.46 12.23 10.26 26.43 15.39 42.61 15.39 26.43 0 45.37-11.05 56.82-32.75l33.93 22.49c-17.75 32.75-52.08 50.9-89.96 50.9-31.17 0-57.61-10.26-78.91-31.17-20.91-20.91-31.57-47.35-31.57-78.52 0-30.38 10.26-56.03 30.38-77.34 20.12-21.31 45.38-31.96 75.76-31.96 31.96 0 57.21 9.87 75.36 29.99 18.15 20.13 27.22 46.17 27.22 78.91 0 6.31-.39 11.05-.79 14.6H737.15zm2.37-35.51H850c-1.58-29.6-24.86-47.74-54.85-47.74-28.8 0-51.29 18.94-55.63 47.74z"></path><path d="M1000.95 291.38c0 9.05-6.91 15.72-12.84 21.65-5.93 5.93-12.6 10.84-21.65 10.84s-15.08-5.55-21.01-11.48c-5.93-5.93-10-11.96-10-21.01s-.65-19.8 5.28-25.73c5.93-5.93 16.68-9.15 25.73-9.15s17.18 5.84 23.11 11.77 11.38 14.06 11.38 23.11z" style="fill: #ffffff"></path></svg>"
+    xmlSpace="preserve"
+    xmlns="http://www.w3.org/2000/svg"
+    xmlnsXlink="http://www.w3.org/1999/xlink"
+    y={0}
+  >
+    <RNSVGGroup
+      fill={
+        {
+          "payload": 4278190080,
+          "type": 0,
+        }
+      }
+    >
+      <RNSVGPath
+        d="M191.13 291.98c-19.73 21.7-44.58 32.35-74.97 32.35-11.84 0-24.86-3.16-38.67-9.47-13.81-6.31-24.07-15-30.78-26.04v32.35H.95V0H47.9v141.65c6.71-11.05 16.57-19.73 30.38-25.65 13.81-6.31 26.83-9.47 39.06-9.47 30.78 0 55.64 11.05 74.57 33.14 19.34 22.1 28.8 47.35 28.8 75.36.01 29.61-9.85 55.25-29.58 76.95zM47.11 215.43c0 18.54 5.92 34.33 17.36 47.35 11.83 12.63 27.22 18.94 45.77 18.94 18.54 0 33.93-6.31 45.37-18.94 11.84-13.02 17.76-28.8 17.76-47.35s-5.92-34.33-17.76-47.35c-11.44-13.02-26.83-19.34-45.37-19.34-18.55 0-33.94 6.31-45.77 19.34-11.44 13.03-17.36 28.81-17.36 47.35zM295.67 229.64c.39 15.78 6.71 28.8 18.94 39.46 12.23 10.26 26.44 15.39 42.61 15.39 26.44 0 45.38-11.05 56.82-32.75l33.93 22.49c-17.76 32.75-52.08 50.9-89.96 50.9-31.17 0-57.61-10.26-78.91-31.17-20.91-20.91-31.57-47.35-31.57-78.52 0-30.38 10.26-56.03 30.38-77.34 20.12-21.31 45.37-31.96 75.76-31.96 31.96 0 57.21 9.87 75.36 29.99 18.15 20.13 27.23 46.17 27.23 78.91 0 6.31-.4 11.05-.79 14.6h-159.8zm2.36-35.51h110.48c-1.58-29.6-24.86-47.74-54.84-47.74-28.8 0-51.3 18.94-55.64 47.74zM498.06 20.52c12.23-12.63 31.17-12.63 43.4 0 12.23 12.23 12.23 31.17 0 43.4-12.23 12.23-31.17 12.23-43.4 0-12.23-12.23-12.23-31.17 0-43.4zm45.37 300.66h-46.95v-210.7h46.95v210.7zM648.38 110.48v235.56c0 53.27-25.65 79.71-76.55 79.71-7.5 0-14.6-1.18-21.3-3.16v-41.04c3.55 1.18 7.5 1.58 11.83 1.58 28.02 0 38.67-10.66 38.67-42.22V110.48h47.35zm7.5-68.26c0 16.97-14.2 30.77-31.57 30.77-16.97 0-30.78-13.81-30.78-30.77 0-16.97 13.81-31.17 30.78-31.17 17.36 0 31.57 14.2 31.57 31.17zM737.15 229.64c.4 15.78 6.71 28.8 18.94 39.46 12.23 10.26 26.43 15.39 42.61 15.39 26.43 0 45.37-11.05 56.82-32.75l33.93 22.49c-17.75 32.75-52.08 50.9-89.96 50.9-31.17 0-57.61-10.26-78.91-31.17-20.91-20.91-31.57-47.35-31.57-78.52 0-30.38 10.26-56.03 30.38-77.34 20.12-21.31 45.38-31.96 75.76-31.96 31.96 0 57.21 9.87 75.36 29.99 18.15 20.13 27.22 46.17 27.22 78.91 0 6.31-.39 11.05-.79 14.6H737.15zm2.37-35.51H850c-1.58-29.6-24.86-47.74-54.85-47.74-28.8 0-51.29 18.94-55.63 47.74z"
+        fill={
+          {
+            "payload": 4294967295,
+            "type": 0,
+          }
+        }
+        propList={
+          [
+            "fill",
+          ]
+        }
+      />
+      <RNSVGPath
+        d="M1000.95 291.38c0 9.05-6.91 15.72-12.84 21.65-5.93 5.93-12.6 10.84-21.65 10.84s-15.08-5.55-21.01-11.48c-5.93-5.93-10-11.96-10-21.01s-.65-19.8 5.28-25.73c5.93-5.93 16.68-9.15 25.73-9.15s17.18 5.84 23.11 11.77 11.38 14.06 11.38 23.11z"
+        fill={
+          {
+            "payload": 4294967295,
+            "type": 0,
+          }
+        }
+        propList={
+          [
+            "fill",
+          ]
+        }
+      />
+    </RNSVGGroup>
+  </RNSVGSvgView>
+  <View>
+    <View>
+      <Text
+        style={
+          {
+            "color": "rgba(255, 255, 255, 0.698)",
+            "fontSize": 16,
+            "fontWeight": "500",
+            "letterSpacing": -0.16,
+            "lineHeight": 25.6,
+            "textAlign": "center",
+          }
+        }
+      >
+        Arayı açmayalım!
+      </Text>
+      <Text
+        style={
+          {
+            "color": "rgba(255, 255, 255, 0.698)",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 18,
+            "textAlign": "center",
+          }
+        }
+      >
+        beije’deki yeni ürün ve gelişmeleri sana haber verelim & aylık e-gazete
+      </Text>
+    </View>
+    <View>
+      <View
+        style={
+          {
+            "gap": 16,
+            "marginTop": 24,
+          }
+        }
+      >
+        <TextInput
+          placeholder="e-mail adresin"
+          placeholderTextColor="rgba(255, 255, 255, 0.698)"
+          style={
+            {
+              "borderColor": "rgba(255, 255, 255, 0.23)",
+              "borderRadius": 8,
+              "borderWidth": 1,
+              "fontSize": 16,
+              "fontWeight": "400",
+              "paddingHorizontal": 14,
+              "paddingVertical": 8.5,
+            }
+          }
+        />
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={false}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "alignItems": "center",
+              "backgroundColor": "white",
+              "borderRadius": 64,
+              "display": "flex",
+              "minWidth": 64,
+              "opacity": 0.87,
+              "paddingBottom": 10,
+              "paddingTop": 12,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "black",
+                "fontSize": 16,
+                "fontWeight": "bold",
+                "letterSpacing": -0.5,
+                "lineHeight": 26,
+              }
+            }
+          >
+            Gönder
+          </Text>
+        </View>
+      </View>
+      <Text
+        style={
+          {
+            "color": "white",
+            "fontSize": 12,
+            "fontWeight": "400",
+            "lineHeight": 20,
+            "marginTop": 16,
+            "opacity": 0.7,
+          }
+        }
+      >
+        Abone olarak, beije KVKK ve Gizlilik Politikası'nı kabul ediyor ve beije'den haber almayı onaylıyorum.
+      </Text>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "marginTop": 40,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "gap": 16,
+          "justifyContent": "center",
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "gap": 16,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            beije Ped
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            beije Günlük Ped
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            beije Tampon
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            beije Store
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "gap": 16,
+          }
+        }
+      >
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            Blog
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            Sıkça Sorulan Sorular
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            Biz Kimiz?
+          </Text>
+        </View>
+        <View
+          accessibilityState={
+            {
+              "busy": undefined,
+              "checked": undefined,
+              "disabled": undefined,
+              "expanded": undefined,
+              "selected": undefined,
+            }
+          }
+          accessibilityValue={
+            {
+              "max": undefined,
+              "min": undefined,
+              "now": undefined,
+              "text": undefined,
+            }
+          }
+          accessible={true}
+          collapsable={false}
+          focusable={true}
+          onClick={[Function]}
+          onResponderGrant={[Function]}
+          onResponderMove={[Function]}
+          onResponderRelease={[Function]}
+          onResponderTerminate={[Function]}
+          onResponderTerminationRequest={[Function]}
+          onStartShouldSetResponder={[Function]}
+          style={
+            {
+              "height": 32,
+              "opacity": 1,
+            }
+          }
+          testID="text-button"
+        >
+          <Text
+            style={
+              {
+                "color": "white",
+                "fontSize": 16,
+                "fontWeight": "400",
+                "textAlign": "center",
+              }
+            }
+          >
+            Quiz
+          </Text>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "justifyContent": "space-between",
+          "marginTop": 40,
+          "width": "100%",
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="icon-button"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={25}
+          bbWidth={25}
+          fill="none"
+          focusable={false}
+          height={25}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 25,
+                "width": 25,
+              },
+            ]
+          }
+          testID="svg"
+          vbHeight={25}
+          vbWidth={25}
+          width={25}
+          xml="<svg xmlns:xlink="http://www.w3.org/1999/xlink"  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M16.8273 6.00882L13.8273 6.00899C13.275 6.00902 12.8273 6.45677 12.8274 7.00905L12.8275 10.009L16.8275 10.0088C16.9412 10.0063 17.0492 10.0592 17.1168 10.1507C17.1844 10.2422 17.2034 10.3608 17.1676 10.4688L16.4277 12.6688C16.3595 12.8707 16.1708 13.0073 15.9577 13.0089L12.8277 13.009L12.8281 20.509C12.8282 20.7851 12.6043 21.0091 12.3282 21.0091L9.82818 21.0092C9.55204 21.0092 9.32816 20.7853 9.32815 20.5092L9.32772 13.0092L7.82772 13.0093C7.55158 13.0093 7.32771 12.7855 7.32769 12.5094L7.32758 10.5094C7.32756 10.2333 7.55141 10.0093 7.82755 10.0093L9.32755 10.0092L9.32738 7.00925C9.32725 4.80011 11.118 3.00914 13.3271 3.00902L16.8271 3.00882C17.1032 3.0088 17.3272 3.23265 17.3272 3.50879L17.3273 5.50879C17.3273 5.78493 17.1034 6.0088 16.8273 6.00882Z" fill="white" fill-opacity="0.7"/>
+</svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M16.8273 6.00882L13.8273 6.00899C13.275 6.00902 12.8273 6.45677 12.8274 7.00905L12.8275 10.009L16.8275 10.0088C16.9412 10.0063 17.0492 10.0592 17.1168 10.1507C17.1844 10.2422 17.2034 10.3608 17.1676 10.4688L16.4277 12.6688C16.3595 12.8707 16.1708 13.0073 15.9577 13.0089L12.8277 13.009L12.8281 20.509C12.8282 20.7851 12.6043 21.0091 12.3282 21.0091L9.82818 21.0092C9.55204 21.0092 9.32816 20.7853 9.32815 20.5092L9.32772 13.0092L7.82772 13.0093C7.55158 13.0093 7.32771 12.7855 7.32769 12.5094L7.32758 10.5094C7.32756 10.2333 7.55141 10.0093 7.82755 10.0093L9.32755 10.0092L9.32738 7.00925C9.32725 4.80011 11.118 3.00914 13.3271 3.00902L16.8271 3.00882C17.1032 3.0088 17.3272 3.23265 17.3272 3.50879L17.3273 5.50879C17.3273 5.78493 17.1034 6.0088 16.8273 6.00882Z"
+              fill={
+                {
+                  "payload": 4294967295,
+                  "type": 0,
+                }
+              }
+              fillOpacity={0.7}
+              propList={
+                [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="icon-button"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={25}
+          bbWidth={25}
+          fill="none"
+          focusable={false}
+          height={25}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 25,
+                "width": 25,
+              },
+            ]
+          }
+          testID="svg"
+          vbHeight={25}
+          vbWidth={25}
+          width={25}
+          xml="
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M16.3291 3.00885L8.3291 3.0093C5.56768 3.00946 3.32923 5.24817 3.32939 8.00959L3.32984 16.0096C3.33 18.771 5.56871 21.0095 8.33013 21.0093L16.3301 21.0088C19.0915 21.0087 21.33 18.77 21.3298 16.0086L21.3294 8.00856C21.3292 5.24714 19.0905 3.00869 16.3291 3.00885ZM19.5798 16.0087C19.5744 17.8013 18.1226 19.2532 16.33 19.2588L8.33003 19.2593C6.53738 19.2539 5.08544 17.8021 5.07984 16.0095L5.07939 8.00949C5.08477 6.21684 6.53655 4.7649 8.3292 4.7593L16.3292 4.75885C18.1218 4.76423 19.5738 6.21601 19.5794 8.00866L19.5798 16.0087ZM17.0794 8.2588C17.6317 8.25877 18.0794 7.81103 18.0793 7.25875C18.0793 6.70647 17.6316 6.25877 17.0793 6.2588C16.527 6.25884 16.0793 6.70658 16.0793 7.25886C16.0794 7.81114 16.5271 8.25884 17.0794 8.2588ZM12.3294 7.50908C9.84408 7.50922 7.82947 9.52405 7.82962 12.0093C7.82976 14.4946 9.84459 16.5092 12.3299 16.5091C14.8152 16.5089 16.8298 14.4941 16.8296 12.0088C16.8322 10.8145 16.3589 9.66841 15.5143 8.82397C14.6698 7.97953 13.5237 7.50635 12.3294 7.50908ZM9.57962 12.0092C9.5797 13.528 10.811 14.7592 12.3298 14.7591C13.8486 14.759 15.0797 13.5277 15.0796 12.0089C15.0795 10.4901 13.8483 9.25899 12.3295 9.25908C10.8107 9.25916 9.57953 10.4904 9.57962 12.0092Z" fill="white" fill-opacity="0.7"/>
+</svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              clipRule={0}
+              d="M16.3291 3.00885L8.3291 3.0093C5.56768 3.00946 3.32923 5.24817 3.32939 8.00959L3.32984 16.0096C3.33 18.771 5.56871 21.0095 8.33013 21.0093L16.3301 21.0088C19.0915 21.0087 21.33 18.77 21.3298 16.0086L21.3294 8.00856C21.3292 5.24714 19.0905 3.00869 16.3291 3.00885ZM19.5798 16.0087C19.5744 17.8013 18.1226 19.2532 16.33 19.2588L8.33003 19.2593C6.53738 19.2539 5.08544 17.8021 5.07984 16.0095L5.07939 8.00949C5.08477 6.21684 6.53655 4.7649 8.3292 4.7593L16.3292 4.75885C18.1218 4.76423 19.5738 6.21601 19.5794 8.00866L19.5798 16.0087ZM17.0794 8.2588C17.6317 8.25877 18.0794 7.81103 18.0793 7.25875C18.0793 6.70647 17.6316 6.25877 17.0793 6.2588C16.527 6.25884 16.0793 6.70658 16.0793 7.25886C16.0794 7.81114 16.5271 8.25884 17.0794 8.2588ZM12.3294 7.50908C9.84408 7.50922 7.82947 9.52405 7.82962 12.0093C7.82976 14.4946 9.84459 16.5092 12.3299 16.5091C14.8152 16.5089 16.8298 14.4941 16.8296 12.0088C16.8322 10.8145 16.3589 9.66841 15.5143 8.82397C14.6698 7.97953 13.5237 7.50635 12.3294 7.50908ZM9.57962 12.0092C9.5797 13.528 10.811 14.7592 12.3298 14.7591C13.8486 14.759 15.0797 13.5277 15.0796 12.0089C15.0795 10.4901 13.8483 9.25899 12.3295 9.25908C10.8107 9.25916 9.57953 10.4904 9.57962 12.0092Z"
+              fill={
+                {
+                  "payload": 4294967295,
+                  "type": 0,
+                }
+              }
+              fillOpacity={0.7}
+              fillRule={0}
+              propList={
+                [
+                  "fill",
+                  "fillOpacity",
+                  "fillRule",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="icon-button"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={25}
+          bbWidth={25}
+          fill="none"
+          focusable={false}
+          height={25}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 25,
+                "width": 25,
+              },
+            ]
+          }
+          testID="svg"
+          vbHeight={25}
+          vbWidth={25}
+          width={25}
+          xml="
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21.3048 6.72596C20.8405 7.34551 20.2791 7.88595 19.6424 8.32642C19.6424 8.48825 19.6424 8.65008 19.6425 8.82091C19.6477 11.7598 18.474 14.5778 16.3844 16.6433C14.2947 18.7089 11.464 19.849 8.52684 19.8082C6.82878 19.814 5.15243 19.4264 3.62914 18.6757C3.547 18.6398 3.49402 18.5586 3.49433 18.4689L3.49432 18.37C3.49432 18.2409 3.59892 18.1363 3.72796 18.1363C5.39711 18.0811 7.00667 17.5023 8.32894 16.4817C6.81812 16.4513 5.45873 15.5564 4.83306 14.1802C4.80147 14.1051 4.81129 14.0188 4.85902 13.9527C4.90674 13.8866 4.98545 13.8502 5.0667 13.8566C5.52587 13.9027 5.98963 13.8599 6.43264 13.7306C4.76481 13.3845 3.51155 12 3.3321 10.3053C3.32573 10.224 3.36215 10.1453 3.42823 10.0975C3.4943 10.0498 3.58047 10.0399 3.65561 10.0716C4.10318 10.269 4.58634 10.373 5.07549 10.3771C3.61403 9.41803 2.9827 7.59366 3.53854 5.9358C3.59592 5.7747 3.73379 5.65569 3.90147 5.6225C4.06915 5.5893 4.24194 5.64682 4.3563 5.77392C6.32849 7.87267 9.03821 9.12322 11.9141 9.26189C11.8405 8.96795 11.8042 8.66586 11.8062 8.36282C11.833 6.77382 12.8162 5.35826 14.2953 4.77883C15.7744 4.19942 17.4568 4.57081 18.555 5.71916C19.3034 5.57653 20.027 5.32508 20.7026 4.97281C20.7521 4.9419 20.8149 4.9419 20.8644 4.9728C20.8953 5.02231 20.8953 5.0851 20.8644 5.13463C20.5372 5.88412 19.9843 6.51276 19.2829 6.93287C19.8971 6.8616 20.5005 6.71668 21.0802 6.50121C21.129 6.46799 21.1931 6.46799 21.2419 6.5012C21.2828 6.5199 21.3134 6.55567 21.3255 6.59898C21.3376 6.64229 21.33 6.68874 21.3048 6.72596Z" fill="white" fill-opacity="0.7"/>
+</svg>
+"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M21.3048 6.72596C20.8405 7.34551 20.2791 7.88595 19.6424 8.32642C19.6424 8.48825 19.6424 8.65008 19.6425 8.82091C19.6477 11.7598 18.474 14.5778 16.3844 16.6433C14.2947 18.7089 11.464 19.849 8.52684 19.8082C6.82878 19.814 5.15243 19.4264 3.62914 18.6757C3.547 18.6398 3.49402 18.5586 3.49433 18.4689L3.49432 18.37C3.49432 18.2409 3.59892 18.1363 3.72796 18.1363C5.39711 18.0811 7.00667 17.5023 8.32894 16.4817C6.81812 16.4513 5.45873 15.5564 4.83306 14.1802C4.80147 14.1051 4.81129 14.0188 4.85902 13.9527C4.90674 13.8866 4.98545 13.8502 5.0667 13.8566C5.52587 13.9027 5.98963 13.8599 6.43264 13.7306C4.76481 13.3845 3.51155 12 3.3321 10.3053C3.32573 10.224 3.36215 10.1453 3.42823 10.0975C3.4943 10.0498 3.58047 10.0399 3.65561 10.0716C4.10318 10.269 4.58634 10.373 5.07549 10.3771C3.61403 9.41803 2.9827 7.59366 3.53854 5.9358C3.59592 5.7747 3.73379 5.65569 3.90147 5.6225C4.06915 5.5893 4.24194 5.64682 4.3563 5.77392C6.32849 7.87267 9.03821 9.12322 11.9141 9.26189C11.8405 8.96795 11.8042 8.66586 11.8062 8.36282C11.833 6.77382 12.8162 5.35826 14.2953 4.77883C15.7744 4.19942 17.4568 4.57081 18.555 5.71916C19.3034 5.57653 20.027 5.32508 20.7026 4.97281C20.7521 4.9419 20.8149 4.9419 20.8644 4.9728C20.8953 5.02231 20.8953 5.0851 20.8644 5.13463C20.5372 5.88412 19.9843 6.51276 19.2829 6.93287C19.8971 6.8616 20.5005 6.71668 21.0802 6.50121C21.129 6.46799 21.1931 6.46799 21.2419 6.5012C21.2828 6.5199 21.3134 6.55567 21.3255 6.59898C21.3376 6.64229 21.33 6.68874 21.3048 6.72596Z"
+              fill={
+                {
+                  "payload": 4294967295,
+                  "type": 0,
+                }
+              }
+              fillOpacity={0.7}
+              propList={
+                [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="icon-button"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={25}
+          bbWidth={25}
+          fill="none"
+          focusable={false}
+          height={25}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 25,
+                "width": 25,
+              },
+            ]
+          }
+          testID="svg"
+          vbHeight={25}
+          vbWidth={25}
+          width={25}
+          xml="
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <path fill-rule="evenodd" clip-rule="evenodd"
+    d="M5.33398 3.00947L19.334 3.00867C20.4386 3.00861 21.334 3.90399 21.3341 5.00856L21.3349 19.0086C21.335 20.1132 20.4396 21.0086 19.335 21.0087L5.33501 21.0095C4.23044 21.0095 3.33496 20.1142 3.3349 19.0096L3.3341 5.00959C3.33404 3.90502 4.22941 3.00954 5.33398 3.00947ZM8.33484 18.0093C8.61098 18.0093 8.83483 17.7854 8.83481 17.5093L8.83441 10.5093C8.8344 10.2332 8.61052 10.0093 8.33438 10.0093L6.83438 10.0094C6.55824 10.0094 6.3344 10.2333 6.33441 10.5094L6.33481 17.5094C6.33483 17.7855 6.5587 18.0094 6.83484 18.0094L8.33484 18.0093ZM7.58433 9.00934C6.7559 9.00939 6.08429 8.33786 6.08424 7.50943C6.08419 6.681 6.75573 6.00939 7.58416 6.00934C8.41259 6.0093 9.08419 6.68083 9.08424 7.50926C9.08429 8.33769 8.41276 9.0093 7.58433 9.00934ZM17.8348 18.0088C18.1109 18.0087 18.3348 17.7848 18.3348 17.5087L18.3346 12.9087C18.367 11.3195 17.192 9.96331 15.6144 9.76888C14.5114 9.6682 13.4427 10.1834 12.8344 11.109L12.8344 10.509C12.8344 10.2329 12.6105 10.0091 12.3344 10.0091L10.8344 10.0092C10.5583 10.0092 10.3344 10.2331 10.3344 10.5092L10.3348 17.5092C10.3348 17.7853 10.5587 18.0092 10.8348 18.0092L12.3348 18.0091C12.6109 18.0091 12.8348 17.7851 12.8348 17.509L12.8346 13.759C12.8346 12.9306 13.5061 12.259 14.3345 12.259C15.1629 12.2589 15.8346 12.9305 15.8346 13.7589L15.8348 17.5089C15.8348 17.785 16.0587 18.0089 16.3348 18.0088L17.8348 18.0088Z"
+    fill="white" fill-opacity="0.7" />
+</svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              clipRule={0}
+              d="M5.33398 3.00947L19.334 3.00867C20.4386 3.00861 21.334 3.90399 21.3341 5.00856L21.3349 19.0086C21.335 20.1132 20.4396 21.0086 19.335 21.0087L5.33501 21.0095C4.23044 21.0095 3.33496 20.1142 3.3349 19.0096L3.3341 5.00959C3.33404 3.90502 4.22941 3.00954 5.33398 3.00947ZM8.33484 18.0093C8.61098 18.0093 8.83483 17.7854 8.83481 17.5093L8.83441 10.5093C8.8344 10.2332 8.61052 10.0093 8.33438 10.0093L6.83438 10.0094C6.55824 10.0094 6.3344 10.2333 6.33441 10.5094L6.33481 17.5094C6.33483 17.7855 6.5587 18.0094 6.83484 18.0094L8.33484 18.0093ZM7.58433 9.00934C6.7559 9.00939 6.08429 8.33786 6.08424 7.50943C6.08419 6.681 6.75573 6.00939 7.58416 6.00934C8.41259 6.0093 9.08419 6.68083 9.08424 7.50926C9.08429 8.33769 8.41276 9.0093 7.58433 9.00934ZM17.8348 18.0088C18.1109 18.0087 18.3348 17.7848 18.3348 17.5087L18.3346 12.9087C18.367 11.3195 17.192 9.96331 15.6144 9.76888C14.5114 9.6682 13.4427 10.1834 12.8344 11.109L12.8344 10.509C12.8344 10.2329 12.6105 10.0091 12.3344 10.0091L10.8344 10.0092C10.5583 10.0092 10.3344 10.2331 10.3344 10.5092L10.3348 17.5092C10.3348 17.7853 10.5587 18.0092 10.8348 18.0092L12.3348 18.0091C12.6109 18.0091 12.8348 17.7851 12.8348 17.509L12.8346 13.759C12.8346 12.9306 13.5061 12.259 14.3345 12.259C15.1629 12.2589 15.8346 12.9305 15.8346 13.7589L15.8348 17.5089C15.8348 17.785 16.0587 18.0089 16.3348 18.0088L17.8348 18.0088Z"
+              fill={
+                {
+                  "payload": 4294967295,
+                  "type": 0,
+                }
+              }
+              fillOpacity={0.7}
+              fillRule={0}
+              propList={
+                [
+                  "fill",
+                  "fillOpacity",
+                  "fillRule",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="icon-button"
+      >
+        <RNSVGSvgView
+          align="xMidYMid"
+          bbHeight={25}
+          bbWidth={25}
+          fill="none"
+          focusable={false}
+          height={25}
+          meetOrSlice={0}
+          minX={0}
+          minY={0}
+          style={
+            [
+              {
+                "backgroundColor": "transparent",
+                "borderWidth": 0,
+              },
+              {
+                "flex": 0,
+                "height": 25,
+                "width": 25,
+              },
+            ]
+          }
+          testID="svg"
+          vbHeight={25}
+          vbWidth={25}
+          width={25}
+          xml="
+<svg xmlns:xlink="http://www.w3.org/1999/xlink"  width="25" height="25" viewBox="0 0 25 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M12.8224 2.94604C7.85188 2.94604 3.82227 6.97554 3.82227 11.9461C3.82227 16.9169 7.85188 20.946 12.8224 20.946C17.7935 20.946 21.8227 16.9169 21.8227 11.9461C21.8227 6.97587 17.7935 2.94647 12.8223 2.94647L12.8224 2.94604ZM16.9498 15.9267C16.7886 16.1911 16.4426 16.2749 16.1782 16.1126C14.065 14.8219 11.4048 14.5295 8.27199 15.2453C7.9701 15.3141 7.66918 15.1249 7.60039 14.8229C7.53129 14.5209 7.71969 14.22 8.02233 14.1512C11.4507 13.3676 14.3915 13.7052 16.7639 15.155C17.0283 15.3173 17.1121 15.6623 16.9498 15.9267ZM18.0514 13.4758C17.8483 13.8062 17.4163 13.9105 17.0863 13.7074C14.6671 12.22 10.9794 11.7894 8.11788 12.658C7.74677 12.7701 7.35482 12.5609 7.24218 12.1905C7.13041 11.8194 7.33966 11.4282 7.71012 11.3153C10.9787 10.3236 15.0422 10.804 17.8204 12.5112C18.1503 12.7143 18.2546 13.1464 18.0514 13.4759V13.4758ZM18.146 10.9239C15.2453 9.201 10.4595 9.04258 7.69003 9.88314C7.2453 10.018 6.77499 9.76696 6.64022 9.32223C6.50545 8.87729 6.75629 8.40731 7.20134 8.27211C10.3805 7.30699 15.6655 7.49346 19.0052 9.47603C19.406 9.71343 19.5372 10.2301 19.2996 10.6295C19.0632 11.0296 18.5452 11.1614 18.1465 10.9239H18.146Z" fill="white" fill-opacity="0.7"/>
+</svg>"
+          xmlns="http://www.w3.org/2000/svg"
+          xmlnsXlink="http://www.w3.org/1999/xlink"
+        >
+          <RNSVGGroup
+            fill={null}
+            propList={
+              [
+                "fill",
+              ]
+            }
+          >
+            <RNSVGPath
+              d="M12.8224 2.94604C7.85188 2.94604 3.82227 6.97554 3.82227 11.9461C3.82227 16.9169 7.85188 20.946 12.8224 20.946C17.7935 20.946 21.8227 16.9169 21.8227 11.9461C21.8227 6.97587 17.7935 2.94647 12.8223 2.94647L12.8224 2.94604ZM16.9498 15.9267C16.7886 16.1911 16.4426 16.2749 16.1782 16.1126C14.065 14.8219 11.4048 14.5295 8.27199 15.2453C7.9701 15.3141 7.66918 15.1249 7.60039 14.8229C7.53129 14.5209 7.71969 14.22 8.02233 14.1512C11.4507 13.3676 14.3915 13.7052 16.7639 15.155C17.0283 15.3173 17.1121 15.6623 16.9498 15.9267ZM18.0514 13.4758C17.8483 13.8062 17.4163 13.9105 17.0863 13.7074C14.6671 12.22 10.9794 11.7894 8.11788 12.658C7.74677 12.7701 7.35482 12.5609 7.24218 12.1905C7.13041 11.8194 7.33966 11.4282 7.71012 11.3153C10.9787 10.3236 15.0422 10.804 17.8204 12.5112C18.1503 12.7143 18.2546 13.1464 18.0514 13.4759V13.4758ZM18.146 10.9239C15.2453 9.201 10.4595 9.04258 7.69003 9.88314C7.2453 10.018 6.77499 9.76696 6.64022 9.32223C6.50545 8.87729 6.75629 8.40731 7.20134 8.27211C10.3805 7.30699 15.6655 7.49346 19.0052 9.47603C19.406 9.71343 19.5372 10.2301 19.2996 10.6295C19.0632 11.0296 18.5452 11.1614 18.1465 10.9239H18.146Z"
+              fill={
+                {
+                  "payload": 4294967295,
+                  "type": 0,
+                }
+              }
+              fillOpacity={0.7}
+              propList={
+                [
+                  "fill",
+                  "fillOpacity",
+                ]
+              }
+            />
+          </RNSVGGroup>
+        </RNSVGSvgView>
+      </View>
+    </View>
+  </View>
+  <View
+    style={
+      {
+        "alignItems": "center",
+        "borderColor": "rgba(265, 265, 265, 0.12)",
+        "borderTopWidth": 1,
+        "gap": 24,
+        "marginTop": 24,
+        "paddingTop": 24,
+        "width": "100%",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#FFFFFF7F",
+          "fontSize": 14,
+          "fontWeight": "400",
+          "lineHeight": 17,
+        }
+      }
+    >
+      2024 beije. Tüm hakları saklıdır.
+    </Text>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="text-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF7F",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 17,
+          }
+        }
+      >
+        KVKK
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="text-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF7F",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 17,
+          }
+        }
+      >
+        KVKK Başvuru Formu
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="text-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF7F",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 17,
+          }
+        }
+      >
+        Üyelik Sözleşmesi
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="text-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF7F",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 17,
+          }
+        }
+      >
+        Gizlilik Politikası
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="text-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF7F",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 17,
+          }
+        }
+      >
+        Çerez Politikası
+      </Text>
+    </View>
+    <View
+      accessibilityState={
+        {
+          "busy": undefined,
+          "checked": undefined,
+          "disabled": undefined,
+          "expanded": undefined,
+          "selected": undefined,
+        }
+      }
+      accessibilityValue={
+        {
+          "max": undefined,
+          "min": undefined,
+          "now": undefined,
+          "text": undefined,
+        }
+      }
+      accessible={true}
+      collapsable={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        {
+          "opacity": 1,
+        }
+      }
+      testID="text-button"
+    >
+      <Text
+        style={
+          {
+            "color": "#FFFFFF7F",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 17,
+          }
+        }
+      >
+        Test Sonuçları
+      </Text>
+    </View>
+    <View
+      style={
+        {
+          "flexDirection": "row",
+          "gap": 5,
+          "marginBottom": 20,
+          "marginTop": 24,
+        }
+      }
+    >
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="text-button"
+      >
+        <Text
+          style={
+            {
+              "color": "#FFFFFF7F",
+              "fontSize": 14,
+              "fontWeight": "400",
+              "lineHeight": 17,
+            }
+          }
+        >
+          EN
+        </Text>
+      </View>
+      <Text
+        style={
+          {
+            "color": "#FFFFFF7F",
+            "fontSize": 14,
+            "fontWeight": "400",
+            "lineHeight": 17,
+          }
+        }
+      >
+        |
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "opacity": 1,
+          }
+        }
+        testID="text-button"
+      >
+        <Text
+          style={
+            [
+              {
+                "color": "#FFFFFF7F",
+                "fontSize": 14,
+                "fontWeight": "400",
+                "lineHeight": 17,
+              },
+              {
+                "color": "white",
+              },
+            ]
+          }
+        >
+          TR
+        </Text>
+      </View>
+    </View>
+  </View>
+</View>
+`;

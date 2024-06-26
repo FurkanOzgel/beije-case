@@ -15,3 +15,5 @@ export default function configureStore() {
     const store = createStore(rootReducer);
     return store;
 }
+
+export type RootState = ReturnType<typeof rootReducer>

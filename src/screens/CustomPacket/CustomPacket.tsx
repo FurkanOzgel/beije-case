@@ -2,12 +2,14 @@ import React, { useState } from 'react';
 import { Text, View, Dimensions } from 'react-native';
 import { ScrollView } from 'react-native-gesture-handler';
 import { TabView, SceneMap, TabBar } from 'react-native-tab-view';
-import { useSelector, useDispatch } from 'react-redux';
+import { useSelector } from 'react-redux';
+import { RootState } from '../../context/store';
 import styles from '../CustomPacket/CustomPacket.style';
 import Footer from '../../components/Footer';
 import TabViews from './components/TabViews';
 import CartDetail from './components/CartDetail';
 import TextButton from '../../components/TextButton';
+
 
 const initialLayout = { width: Dimensions.get('window').width };
 
@@ -58,7 +60,7 @@ function TabViewComponent(): React.JSX.Element {
 }
 
 function CustomPacket(): React.JSX.Element {
-    const cart = useSelector((state: any) => state.cart);
+    const cart = useSelector((state: RootState) => state.cart);
     const productsLength = cart.products.length
     return (
         <View style={styles.container}>

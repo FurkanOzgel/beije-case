@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Text, View, TouchableOpacity, Animated } from 'react-native';
+import { Text, View, Animated, LayoutChangeEvent } from 'react-native';
 
 import { useSelector, useDispatch } from 'react-redux';
+import { RootState } from '../../../../context/store';
 import { SvgXml } from 'react-native-svg';
 
 import icons from '../../../../assets/svg';
@@ -9,6 +10,7 @@ import styles from './CartDetail.style';
 
 import {getTotalPrice} from '../../../../utils/helpers';
 import CartCategoryItem from  '../CartCategoryItem'
+import { Product } from '../../../../context/cart/models';
 
 function CartDetail(): React.JSX.Element {
     const [height, setHeight] = useState(0);
@@ -18,7 +20,7 @@ function CartDetail(): React.JSX.Element {
     const dispatch = useDispatch();
 
     const animatedHeight = new Animated.Value(height);
-    const cart = useSelector((state: any) => state.cart);
+    const cart = useSelector((state: RootState) => state.cart);
     const productsLength = cart.products.length
     
     useEffect(() => {
@@ -39,7 +41,7 @@ function CartDetail(): React.JSX.Element {
     };
 
     const onDeleteCategory = (categoryID: number) => {
-        const uniqueCategoryIDs = new Set(cart.products.map((product: any) => product.categoryID));
+        const uniqueCategoryIDs = new Set(cart.products.map((product: Product) => product.categoryID));
         dispatch({type: 'DELETE_CATEGORY', payload: categoryID});
         
         if (uniqueCategoryIDs.size == 1) {
@@ -48,7 +50,7 @@ function CartDetail(): React.JSX.Element {
         }
     };
 
-    const onContentSizeChange = (event: any) => {
+    const onContentSizeChange = (event: LayoutChangeEvent) => {
         const { height } = event.nativeEvent.layout;
         setContentHeight(height);
         animatedHeight.setValue(height);

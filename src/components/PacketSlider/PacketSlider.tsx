@@ -7,6 +7,7 @@ import { useDispatch, useSelector } from 'react-redux';
 import { Product } from '../../context/cart/models';
 
 import styles from './PacketSlider.style';
+import { RootState } from '../../context/store';
 
 interface PacketSliderProps {
     title: string;
@@ -18,10 +19,10 @@ interface PacketSliderProps {
 
 function PacketSlider(props: PacketSliderProps): React.JSX.Element {
 
-    const oldValue = useSelector((state: any) =>
+    const oldValue = useSelector((state: RootState) =>
         (state.cart.products.filter((product: Product) => 
         product.name == props.title)[0]?.oldQuantity || 0));
-    const cart = useSelector((state: any) => state.cart);
+    const cart = useSelector((state: RootState) => state.cart);
 
     const dispatch = useDispatch();
 
@@ -31,7 +32,7 @@ function PacketSlider(props: PacketSliderProps): React.JSX.Element {
             <View style={{padding: 10}}>
                 <Slider
                     testID='slider'
-                    value={cart.products.filter((product: any) => product.name == props.title)[0]?.quantity || 0}
+                    value={cart.products.filter((product: Product) => product.name == props.title)[0]?.quantity || 0}
                     minimumValue={0}                  
                     maximumValue={props.maxValue}                 
                     step={props.step}                       

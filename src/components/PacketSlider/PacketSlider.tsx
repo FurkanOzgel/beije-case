@@ -1,4 +1,3 @@
-export {}
 import React from 'react';
 import { Text, View } from 'react-native';
 import { Slider } from '@react-native-assets/slider';
